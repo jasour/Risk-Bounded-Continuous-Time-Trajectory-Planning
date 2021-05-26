@@ -1,7 +1,7 @@
 **Illustrative Example 3**-Figure 4-d
 
 
-
+Julia code:
 
 1) Add required functions: include("func_PathPlanningSOS.jl")
 2) Main code to obtain the risk bounded trajectory: include("main.jl")
