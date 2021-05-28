@@ -2,5 +2,5 @@
 
 
 0) main_0_obstacle: generates uncertain obstacle: Figure 8-a
-1) main_1: generates the polynomials in Eq (10):Figure 8-b
+1) main_1: generates the polynomials in Eq (10): Figure 8-b
  
