@@ -2,5 +2,5 @@
 
 0) main_0_obstacle: generates uncertain obstacle: Figure 6-a
 1) main_1: generates the polynomials in Eq (10): Figure 6-b
-3) main_2_compare_MonteCarlo: Risk contours obtained by Monte Carlo Sampling: Figure 7
-5) main_3_compare_ConvexOpt: Risk contours obtained by optimization based method: Figure 7
+2) main_2_compare_MonteCarlo: Risk contours obtained by Monte Carlo Sampling: Figure 7
+3) main_3_Analytic: Risk contours obtained by Eq (10)
