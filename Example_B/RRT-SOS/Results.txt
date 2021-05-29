@@ -1,0 +1,10 @@
+MOSEK: version 9.2.45 (May 26, 2021)
+Julia: 1.5
+Model: YOGA 910
+Processor: Intel(R)Core(TM)i7-7500U CPU@ 2.70GHZ 2.90 GHz
+RAM: 8.00 GH (7.84 GB usable)
+System type: 64-bit
+
+
+Run-time:
+RRT Path ~ 6.5 sec
