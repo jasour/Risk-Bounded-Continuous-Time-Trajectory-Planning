@@ -1,0 +1,13 @@
+Julia: 1.5
+Model: YOGA 910
+Processor: Intel(R)Core(TM)i7-7500U CPU@ 2.70GHZ 2.90 GHz
+RAM: 8.00 GH (7.84 GB usable)
+System type: 64-bit
+
+
+Obtained Trajectories:
+[px(t),py(t)]= [0.7720002773799888t, 0.025326757967887636t]
+[px(t),py(t)]=[1.2279997226200112t + 0.7720002773799888, 0.9746732420321124t + 0.025326757967887636]
+
+ 
+Run-time: ~2.1
