@@ -3,7 +3,8 @@
 Julia code:
 
 1) Add required functions: include("func_PathPlanningSOS.jl")
-2) Main code to obtain the risk bounded trajectory: include("main.jl")
+2) Risk contours of the vehicles: main_1_RiskContours_vehicle1.m and main_2_RiskContours_vehicle2.m
+3) Main code to obtain the risk bounded trajectory: include("main.jl")
 
 
 
