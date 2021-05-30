@@ -7,6 +7,7 @@ n = 2             # dimension of the space
 max_deg_uv = 4    # degree of moment relaxation
 num_pieces = 2    # number of linear pieces
 num_iterations=20 # number of iterations of the heuristic
+random_seed = 3   # random seed used to initialize the heuristic 
 x0 = [0, 0]      # starting point
 xT = [2, 1]        # destination
 edge_size = 3   # edgesize of the bounding box where the trajectory lives
@@ -26,5 +27,5 @@ constraint = [# 0.1-Risk Contour Cons 1 and 2
 solver = optimizer_with_attributes(Mosek.Optimizer, "QUIET" => true)
 
 @time begin
-opt_trajectory=TimeVaryingSOS(n, constraint, edge_size, x0, xT, max_deg_uv, num_pieces, num_iterations)
+opt_trajectory=TimeVaryingSOS(n, constraint, edge_size, x0, xT, max_deg_uv, num_pieces, num_iterations,random_seed)
 end

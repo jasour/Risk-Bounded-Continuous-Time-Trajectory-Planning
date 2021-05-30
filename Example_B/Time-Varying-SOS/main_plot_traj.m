@@ -11,8 +11,8 @@ plot(xT(1),xT(2),'^','LineWidth',2,'MarkerSize',10,'MarkerEdgeColor','k','Marker
 %% obtained optimal piece-wise linear trajectories via time-varying-SOS
 % traj=[px(t),py(t)]
 syms t
-traj_1 =[0.7720002773799888*t, 0.025326757967887636*t];
-traj_2 =[1.2279997226200112*t + 0.7720002773799888, 0.9746732420321124*t + 0.025326757967887636];
+traj_1 = [1.0151247964341321*t, 0.3508290245957282*t];
+traj_2 = [0.9848752035658679*t + 1.0151247964341321, 0.6491709754042718*t + 0.3508290245957282];
 
 %reparameterization: t in [0,1] to t in [0,0.5] or to t in [0.5,1]
 traj_1 = subs(traj_1, t, (t-0)/(0.5-0)); traj_2 = subs(traj_2, t, (t-0.5)/(1-0.5));

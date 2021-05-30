@@ -283,7 +283,7 @@ function find_path_using_heuristic(n, contraint_fcts, edge_size, a, b,
         #pieces_to_trajectory(opt_trajectory_pieces)
 end
 
-function TimeVaryingSOS(n, constraint, edge_size, a, b, max_deg_uv, num_pieces, num_iterations)
+function TimeVaryingSOS(n, constraint, edge_size, a, b, max_deg_uv, num_pieces, num_iterations, random_seed)
     """
     n # dimension of the space
     constraint # constraint g>=0
@@ -296,7 +296,6 @@ function TimeVaryingSOS(n, constraint, edge_size, a, b, max_deg_uv, num_pieces, 
     """
     solver = optimizer_with_attributes(Mosek.Optimizer, "QUIET" => true)
     weight_lenght= .1 # trade off between minimizing length and rank
-    random_seed = 6 # random seed used to initialize the heuristic
     # compute optimal piece-wise linear trajectory
     opt_trajectory = find_path_using_heuristic(n, constraint, edge_size, a, b,
         max_deg_uv, num_pieces, solver,
