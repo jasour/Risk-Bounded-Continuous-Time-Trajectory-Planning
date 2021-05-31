@@ -1,13 +1,13 @@
 Parameters of Time-Varying SOS
 
-***Illus 3 **********************
+***Illustrative Example 3 **********************
 Static Obs: 1             # number of obstacles
 num_pieces = 2            # number of linear pieces
 num_iterations=40         # number of iterations of the heuristic
 Order of risk contours: 2 # number of order of polynomials
 time: ~2.2 sec
 
-*** Illus 4 **********************
+***Illustrative Example 4 **********************
 Dynamic Obs: 1             # number of obstacles
 num_pieces = 2             # number of linear pieces
 num_iterations=20          # number of iterations of the heuristic
