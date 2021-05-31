@@ -1,0 +1,29 @@
+Parameters of Time-Varying SOS
+
+***Illus 3 **********************
+Static Obs: 1             # number of obstacles
+num_pieces = 2            # number of linear pieces
+num_iterations=40         # number of iterations of the heuristic
+Order of risk contours: 2 # number of order of polynomials
+time: ~2.2 sec
+
+*** Illus 4 **********************
+Dynamic Obs: 1             # number of obstacles
+num_pieces = 2             # number of linear pieces
+num_iterations=20          # number of iterations of the heuristic
+Order of risk contours: 4  # number of order of polynomials
+time: ~6.9 sec
+
+***Example B **********************
+Dynamic Obs: 2             # number of obstacles
+num_pieces = 2             # number of linear pieces
+num_iterations=20          # number of iterations of the heuristic
+Order of risk contours: 2  # number of order of polynomials
+time: ~1.2 sec
+
+***Example C **********************
+Dynamic Obs: 3            # number of obstacles
+num_pieces = 5            # number of linear pieces
+num_iterations=20         # number of iterations of the heuristic
+Order of risk contours: 2 # number of order of polynomials
+time: ~7 sec
