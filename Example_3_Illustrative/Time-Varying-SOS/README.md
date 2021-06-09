@@ -3,9 +3,10 @@
 
 Julia code:
 
+Install the required packages listed in func_PathPlanningSOS.jl. 
+
 1) Add required functions: include("func_PathPlanningSOS.jl")
 2) Main code to obtain the risk bounded trajectory: include("main.jl")
-
 
 
 
