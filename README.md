@@ -1,5 +1,11 @@
 # Risk-Bounded Continuous-Time Trajectory Planning
-RSS 2021: Convex Risk Bounded Continuous-Time Trajectory Planning in Uncertain Nonconvex Environments
+Robotics: Science and Systems (RSS) 2021
+
+Convex Risk Bounded Continuous-Time Trajectory Planning in Uncertain Nonconvex Environments
+
+https://arxiv.org/abs/2106.05489
+
+https://www.youtube.com/watch?v=zBkbU7e9ZsM
 
 
 
