@@ -3,9 +3,12 @@
 Code for: Ashkan Jasour, Weiqiao Han, Brian Williams, "Convex Risk Bounded Continuous-Time Trajectory Planning in Uncertain Nonconvex Environments", Robotics: Science and Systems (RSS) 2021.
 
 
-https://arxiv.org/abs/2106.05489
+**Paper:** 
+http://www.roboticsproceedings.org/rss17/p069.html
 
-https://www.youtube.com/watch?v=zBkbU7e9ZsM
+**Videos:**
+1) https://www.youtube.com/watch?v=zBkbU7e9ZsM
+2) https://www.youtube.com/watch?v=z594Tg8kkg8&ab_channel=AshkanJasour
 
 
 ---
