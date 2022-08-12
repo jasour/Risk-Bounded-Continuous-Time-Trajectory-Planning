@@ -5,6 +5,7 @@ function status = verify_line_segment_TVRRT(f, a, b, d, t, piece_idx, num_pieces
 %        d is degree
 % output: status = 1 if line segment is obs free, 0 otherwise
 
+
 x = a + num_pieces*(b-a)*(t-(piece_idx-1)/num_pieces);
 x1 = x(1);
 x2 = x(2);
@@ -13,10 +14,11 @@ g01 = -(t-(piece_idx-1)/num_pieces)*(t-piece_idx/num_pieces);
 
 prog = spotsosprog;
 prog = prog.withIndeterminate( t );
-prog = sosOnK( prog, g, t, g01, d);
+[prog,gamma] = prog.newFree(1);% ***
+prog = sosOnK( prog, g-gamma, t, g01, d);
 
 % Objective
-obj = 0; 
+obj = -gamma; 
 
 
 spot_options = spot_sdp_default_options();
