@@ -15,7 +15,7 @@ http://www.roboticsproceedings.org/rss17/p069.html
 Prerequisites:
 
 1. MOSEK(v 9.2): https://www.mosek.com/downloads
-2. RRT-SOS:  The Spotless toolbox. https://github.com/spot-toolbox/spotless
+2. RRT-SOS:  The Spotless toolbox. https://github.com/spot-toolbox/spotless (Spotless is very sensitive to Matlab version and operating system. Tested with Matlab 2019a and Mac OS X.)
 3. Time-Varying-SOS: Julia (v 1.5)
 
 
