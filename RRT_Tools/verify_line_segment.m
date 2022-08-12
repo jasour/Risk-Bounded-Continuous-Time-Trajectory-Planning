@@ -14,10 +14,11 @@ g01 = t*(1-t);
 
 prog = spotsosprog;
 prog = prog.withIndeterminate( t );
-prog = sosOnK( prog, g, t, g01, d);
+[prog,gamma] = prog.newFree(1);
+prog = sosOnK( prog, g-gamma, t, g01, d);
 
 % Objective
-obj = 0; 
+obj = -gamma; 
 
 
 spot_options = spot_sdp_default_options();
